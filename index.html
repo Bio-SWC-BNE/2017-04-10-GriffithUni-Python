@@ -2,14 +2,14 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS.
 venue: "Griffith University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Nathan Campus, Kessels rd, Nathan, QLD"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+address: "Gold Coast Campus, Queensland, QLD"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
 country: "au"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-27.552079, 153.054078"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "April 19-20, 2016"    # human-readable date (e.g., "Feb 17-18, 2020")
+humandate: "Juse 6-7, 2016"    # human-readable date (e.g., "Feb 17-18, 2020")
 humantime: "8:30am - 5:00pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: 2016-04-19      # use YYYY-MM-DD format like 2015-01-01
-enddate: 2016-04-20        # use YYYY-MM-DD format like 2015-01-02
+startdate: 2016-06-06      # use YYYY-MM-DD format like 2015-01-01
+enddate: 2016-06-07        # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Heidi Perrett", "Kim Keogh", "Sam Hames", "Amanda Miotto"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Please apply as a helper by contacting us"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "a.miotto@griffith.edu.au"      # contact email address for workshop organizer, such as "grace@hopper.org"
@@ -39,16 +39,6 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   are not using Eventbrite, or leave it in, since it will not be
   displayed if the 'eventbrite' field in the header is not set.
 -->
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 
 
 <h2 id="general">General Information</h2>
@@ -193,7 +183,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <tr> <td>08:30</td>  <td>Automating tasks with the Unix shell</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with R</td> </tr>
+      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -201,7 +191,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>08:30</td>  <td>Building programs with R (continued)</td> </tr>
+      <tr> <td>08:30</td>  <td>Building programs with Python (continued)</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
       <tr> <td>13:00</td>  <td>Version control with Git</td> </tr>
@@ -225,13 +215,6 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
-{% if page.etherpad %}
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
 
 <hr/>
 
@@ -267,7 +250,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
-  <!--<div class="col-md-6">
+  <div class="col-md-6">
     <h3 id="syllabus-python">Programming in Python</h3>
     <ul>
       <li>Using libraries</li>
@@ -280,8 +263,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-  -->
-  <div class="col-md-6">
+  
+  <!--<div class="col-md-6">
     <h3 id="syllabus-r">Programming in R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
@@ -292,7 +275,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-  
+  -->
   <!--
   <div class="col-md-6">
     <h3 id="syllabus-matlab">Programming in MATLAB</h3>
@@ -393,23 +376,23 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   </p>
    <br/>
   <p>
-<p><h3>Second lesson: R</h3></p>
+<p><h3>Second lesson: Python</h3></p>
 <p></p>
-<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-inflammation/">http://swcarpentry.github.io/r-novice-inflammation/</a></p>
-<p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/r-novice-inflammation-data.zip</a></p>
-<p>We are gong to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/python-novice-inflammation/">http://swcarpentry.github.io/python-novice-inflammation/</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip">http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip</a></p>
+<p>You need to download to your computer, use the following...</p>
  <br/> 
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
 <p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
 <p></p>
 <p>Mac:</p>
-<p>curl -O http://swcarpentry.github.io/r-novice-inflammation/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
+<p>curl -O http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip</p>
+<p>unzip python-novice-inflammation-data.zip</p>
 <p></p>
 <p>Linux:</p>
-<p>wget http://swcarpentry.github.io/r-novice-inflammation/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
+<p>wget http://swcarpentry.github.io/python-novice-inflammation/python-novice-inflammation-data.zip</p>
+<p>unzip python-novice-inflammation-data.zip</p>
 
   </p>
   <br/>
@@ -610,7 +593,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   </div>
 </div> <!-- End of 'editor' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
+<!--<div id="r">  Start of 'R' section. 
   <h3>R</h3>
 
   <p>
@@ -653,7 +636,94 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       </p>
     </div>
   </div>
-</div> <!-- End of 'R' section. -->
+</div>  End of 'R' section. -->
+
+<div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
+           the workshop will teach Python using something other than
+           the IPython notebook.
+           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
+  <h3>Python</h3>
+
+  <p>
+    <a href="http://python.org">Python</a> is a popular language for
+    scientific computing, and great for general-purpose programming as
+    well.  Installing all of its scientific packages individually can be
+    a bit difficult, so we recommend
+    <a href="https://www.continuum.io/anaconda">Anaconda</a>,
+    an all-in-one installer.
+  </p>
+
+    <p>
+      Regardless of how you choose to install it,
+      <strong>please make sure you install Python version 3.x</strong>
+      (e.g., 3.5 is fine).
+    </p>
+
+    <p>
+      We will teach Python using the IPython notebook, a programming environment
+      that runs in a web browser. For this to work you will need a reasonably
+      up-to-date browser. The current versions of the Chrome, Safari and
+      Firefox browsers are all <a
+      href='http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility'>supported</a>
+      (some older browsers, including Internet Explorer version 9
+      and below, are not).
+    </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="python-windows">Windows</h4>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for Windows.</li>
+        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-macosx">Mac OS X</h4>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for OS X.</li>
+        <li>Install Python 3 using all of the defaults for installation.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-linux">Linux</h4>
+      </p>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for Linux.</li>
+        <li>Install Python 3 using all of the defaults for installation.
+        (Installation requires using the shell. If you aren't
+        comfortable doing the installation yourself
+        stop here and request help at the workshop.)</li>
+        <li>
+          Open a terminal window.
+        </li>
+        <li>
+          Type <pre>bash Anaconda-</pre> and then press
+          tab. The name of the file you just downloaded should
+          appear.
+        </li>
+        <li>
+          Press enter. You will follow the text-only prompts.  When
+          there is a colon at the bottom of the screen press the down
+          arrow to move down through the text. Type <code>yes</code> and
+          press enter to approve the license. Press enter to approve the
+          default location for the files. Type <code>yes</code> and
+          press enter to prepend Anaconda to your <code>PATH</code>
+          (this makes the Anaconda distribution the default Python).
+        </li>
+      </ol>
+    </div>
+  </div>
+  <p>
+  Once you are done installing the software listed above,
+  please go to <a href="setup/index.html">this page</a>,
+  which has instructions on how to test that everything was installed correctly.
+  </p>
+</div> <!-- End of 'Python' section. -->
+
+
 
 
 <div id="Containers"> <!-- Start of 'Containers' section. -->
