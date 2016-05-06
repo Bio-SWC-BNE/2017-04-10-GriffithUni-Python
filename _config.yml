@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "http://Bio-SWC-BNE.github.io/2016-04-19-GriffithUni"
-workshop_site   : "http://Bio-SWC-BNE.github.io/2016-04-19-GriffithUni"
+workshop_repo   : "http://Bio-SWC-BNE.github.io/2016-06-06-GriffithUni-Python"
+workshop_site   : "http://Bio-SWC-BNE.github.io/2016-06-06-GriffithUni-Python"
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------
